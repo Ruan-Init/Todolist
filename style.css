@@ -1,0 +1,359 @@
+
+*{
+  margin: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+
+.background {
+  width: 168px;
+  height: 100vh;
+  padding: 10px;
+  background: #ccecff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 37px;
+  height: 34px;
+  margin-bottom: 20px;
+  position: relative;
+  right: 50px;
+  top: 20px;
+
+}
+
+.options{
+  position: relative;
+  top: 40px;
+  right: 15px;
+  cursor: pointer;
+}
+
+
+.exit {
+  position: relative;
+  top: 700px;
+  cursor: pointer;
+}
+
+
+.mid-background {
+  width: 300px;
+  height: 100vh;
+  padding: 10px;
+  background: #e5c7f1;
+  position: absolute;
+  top: 0;
+  left: 188px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+
+}
+
+ .button-newevent {
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(153, 29, 202);
+  padding: 10px 20px; 
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1; 
+  transition: 0.3s ease;
+  transform: scale(0.95);
+  width: 212px;
+  height: 41px;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  position: relative;
+  top: 20px;
+}
+
+ .morning-call {
+  position: relative;
+  left: 60px;
+  width: 396px;
+  height: 127px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.big-background {
+  width: 1375px;
+  height: 100vh;
+  padding: 10px;
+  background-image: url(assets/wallpaperflare.com_wallpaper\ \(7\).jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ .photo {
+  width: 250px;
+  
+  margin-top: 20px;
+  position: relative;
+  left: 500px;
+  cursor: pointer;
+}
+
+.meeting {
+  width: 272px;
+  height: 79px;
+  margin-top: 20px;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+  right: 445px;
+  bottom: 80px;
+}
+
+ .task {
+ position: relative;
+ width: 400px;
+ right: 445px;
+ bottom: 40px;
+ position: relative;
+}
+
+.button-new {
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(55, 29, 202);
+  padding: 10px 20px; 
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1; 
+  transition: 0.3s ease;;
+  width: 100px;
+  height: 41px;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 320px;
+  left: 300px;
+  cursor: pointer;
+
+}
+
+
+.line {
+  width: 1600px;
+  position: relative;
+  right: 100px;
+
+}
+
+ .button-todo {
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(24, 175, 235);
+  padding: 10px 20px; 
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1; 
+  transition: 0.3s ease;
+  width: 212px;
+  height: 41px;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  top: 40px;
+  right: 445px;
+  cursor: pointer;
+
+}
+
+.button-doing {
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(57, 211, 198);
+  padding: 10px 20px; 
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1; 
+  transition: 0.3s ease;
+  width: 212px;
+  height: 41px;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 274px;
+  right: 90px;
+  cursor: pointer;
+
+}
+
+.big-background .button-done {
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background:  rgb(153, 29, 202);
+  padding: 10px 20px; 
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1; 
+  transition: 0.3s ease;
+  width: 212px;
+  height: 41px;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 330px;
+ left: 250px;
+ cursor: pointer;
+
+}
+
+
+
+ .talking{
+  position: relative;
+  right: 600px;
+  bottom: 60px;
+  width: 200px;
+}
+.task1{
+  position: relative;
+  right: 470px;
+  bottom: 130px;
+}
+
+.container{
+  position: relative;
+  right: 470px;
+  bottom: 20px;
+  width: auto;
+  height: 100px;
+  float: left;
+  margin-left: 10px;
+}
+
+.checkbox{
+ position: absolute;
+  left: 10px;
+  top: 13px;
+}
+
+
+.container-1{
+  position: relative;
+  right: 470px;
+ bottom: 10px;
+  width: auto;
+  height: 100px;
+  float: left;
+  margin-left: 10px;
+}
+
+.container-2{
+  position: relative;
+  right: 470px;
+ bottom: 10px;
+  width: auto;
+  height: 100px;
+  float: left;
+  margin-left: 10px;
+}
+
+.button-add{
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(29, 202, 159);
+  padding: 10px 20px; 
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1; 
+  transition: 0.3s ease;;
+  width: 100px;
+  height: 41px;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 10px;
+  right: 620px;
+  cursor: pointer;
+}
+
+.input-task{
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+}
+
+.list-tasks {
+  width: 100%;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.button-add-task{
+  border: none;
+  border-radius: 100px;
+  height: 40px;
+  background-color: aquamarine;
+  color: #000000;
+  font-size: 17px;
+  padding: 0 15px;
+  float: right;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+}
+
+.button-add-task:hover{
+  opacity: 0.8;
+}
+
+.button-add-task:active{
+  opacity: 0.6;
+}
+
+
+.icons{
+  height: 25px;
+}
+
+.container4{
+  background-color: #e5c7f1;
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  right: 450px;
+  top: 40px;
+  
+}
+
+
+  
+
+
+
+
